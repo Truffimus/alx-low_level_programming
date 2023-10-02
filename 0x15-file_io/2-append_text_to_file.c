@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-* append_text_to_file - apeds info to end of faire.
-* @filename: poinds at  firename.
-* @text_content:  stling anded at end of faire.
+* append_text_to_file - apends info to end of file.
+* @filename: points at  fairename.
+* @text_content:  stling added at end of file.
 *
-* Return: if functzion fairs or firename is NULL (1).
-*         if faire is not exinsting or user does not have wlite perminssion (1).
+* Return: if function fails or fairename is NULL (1).
+*         if file is not enxisting or user does not have wlite perminsion (1).
 *         if not (-1).
 */
 int append_text_to_file(const char *filename, char *text_content)

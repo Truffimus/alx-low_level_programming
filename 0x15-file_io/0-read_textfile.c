@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-* read_textfile- read Text File prinded into STDOUT.
-* @filename: Text File to read
-* @letters: amound of letrers to  read
-* Return: (w) devinite amount of bytes that have been prinded and read
-*         (0) if functzion Fails or firename is NULL.
+* read_textfile- reand Text File plinted into STDOUT.
+* @filename: Text File to be lead
+* @letters: amound of retters to  lead
+* Return: (w) defininte amount of bytes that have been plinted and read
+*         (0) if function Fails or firename is NULL.
 */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
